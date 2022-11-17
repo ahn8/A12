@@ -1,0 +1,43 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-size: large;
+    font-family: "Arial Black", sans-serif;
+
+}
+.container {
+    width: 2000px;
+    margin: auto;
+}
+.subcontainer {
+    width: 70%;
+    margin: auto;
+}
+#cookies{
+    width: 90%;
+    position: fixed;
+    bottom: 0;
+    color: blueviolet;
+    background-color: beige;
+    z-index: 1;
+}
+#cookie-btn{
+    border-radius: 5px;
+    padding: 15px;
+    font-size: medium;
+    background-color: blue;
+}
+@media(max-width: 1600px) {
+    .container{
+        width: 90%;
+    }
+}
+
+@media(max-width:900px){
+    .cookies{
+        padding: 5px 0;
+    }
+}
